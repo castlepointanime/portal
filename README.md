@@ -2,6 +2,18 @@
 
 A simple portal that allows vendors to sign up to apply, view application progress and status, as well as providing a central location for documents.
 
+### **Local Setup**
+
+---
+
+To begin simply pull this repository and its submodules using the following command:
+
+`git clone --recurse-submodules https://github.com/AA-DR-Portal/portal.git`
+
+...or if you SSH setup already:
+
+`git clone --recurse-submodules git@github.com:AA-DR-Portal/portal.git`
+
 ### **Running Locally With Docker**
 
 ---
@@ -10,7 +22,7 @@ _This method will build both front-end and back-end at once with minimal local i
 
 1. Make sure to install Docker for your system first!
 
-2. After doing so simply run `docker compose up -d`
+2. After doing so simply run `docker compose up -d --build`
 
 3. To shutdown both the front-end and backend run `docker compose down`
 
@@ -37,3 +49,7 @@ Make sure to have the following installed before proceeding:
 1. `cd frontend`
 2. `yarn`
 3. `yarn run dev`
+
+### **Pushing your changes**
+
+`git push --recurse-submodules=on-demand`

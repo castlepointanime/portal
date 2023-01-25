@@ -17,6 +17,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
+    env_file:
+      - backend.env
     volumes:
       - ./backend:/app
   frontend:
@@ -28,6 +30,8 @@ services:
       - backend
     ports:
       - "3000:3000"
+    env_file:
+      - frontend.env
     volumes:
       - ./frontend:/app
       - /app/node_modules
