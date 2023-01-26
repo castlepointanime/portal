@@ -10,7 +10,7 @@ To begin simply pull this repository and its submodules using the following comm
 
 `git clone --recurse-submodules https://github.com/AA-DR-Portal/portal.git`
 
-...or if you SSH setup already:
+...or if you setup SSH already:
 
 `git clone --recurse-submodules git@github.com:AA-DR-Portal/portal.git`
 
@@ -51,5 +51,7 @@ Make sure to have the following installed before proceeding:
 3. `yarn run dev`
 
 ### **Pushing your changes**
+
+---
 
 `git push --recurse-submodules=on-demand`
