@@ -8,11 +8,11 @@ A simple portal that allows vendors to sign up to apply, view application progre
 
 To begin simply pull this repository and its submodules using the following command:
 
-`git clone --recurse-submodules https://github.com/AA-DR-Portal/portal.git`
+`git clone --recurse-submodules https://github.com/cpacdev/portal.git`
 
 ...or if you setup SSH already:
 
-`git clone --recurse-submodules git@github.com:AA-DR-Portal/portal.git`
+`git clone --recurse-submodules git@github.com:cpacdev/portal.git`
 
 ### **Running Locally With Docker**
 
