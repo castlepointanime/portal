@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/AA-DR-Portal/backend
+	url = https://github.com/cpacdev/backend
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/AA-DR-Portal/frontend
+	url = https://github.com/cpacdev/frontend
