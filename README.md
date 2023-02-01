@@ -28,6 +28,28 @@ _This method will build both front-end and back-end at once with minimal local i
 
 **You will now see the frontend on `localhost:3000` and the backend on `localhost:3001`**
 
+### Running VSCode Devcontainers
+
+Requirements:
+
+- VSCode
+- Docker
+- VSCode Dev Containers plugin
+
+**Running the backend**
+
+1. In vscode click `File` and then click `Open Folder...`
+2. Open the `backend` folder
+3. Click `Ctrl + Shift + P` and then select `Dev Containers: Rebuild and Reopen in Container`
+4. See steps `Running the backend` in `Running Locally without Docker` below to see how to start the backend
+
+**Running the frontend**
+
+1. In vscode click `File` and then click `Open Folder...`
+2. Open the `frontend` folder
+3. Click `Ctrl + Shift + P` and then select `Dev Containers: Rebuild and Reopen in Container`
+4. See steps `Running the backend` in `Running Locally without Docker` below to see how to start the backend
+
 ### **Running Locally without Docker**
 
 ---
