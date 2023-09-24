@@ -1,8 +1,8 @@
 [submodule "backend"]
 	path = backend
-	url = git@github.com:cpacdev/backend.git
+	url = git@github.com:castlepointanime/backend.git
 	branch = main
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:cpacdev/frontend.git
+	url = git@github.com:castlepointanime/frontend.git
 	branch = main
