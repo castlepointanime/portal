@@ -6,17 +6,10 @@ A simple portal that allows vendors to sign up to apply, view application progre
 
 AA-DR Portal requires AWS-CLI in order to get credentials needed to make AWS service related calls.
 
-1. [Install AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for your respective OS (using Windows will require a configuration change)
-2. (**For Windows Users**) Go to `docker-compose.yml` and change this line in the backend container configuration:
-
-```
-    volumes:
-      - ./backend:/app
-      - ~/.aws:/root/.aws <- change to %UserProfile%\.aws:/root/.aws
-```
-
-3. Once installed run `aws configure sso` on your terminal / PowerShell
-4. Follow the prompts as shown here exactly (if you don't things will break)
+1. [Install AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for your respective OS
+2. For Windows please run installation commands in **Powershell**. Run the project in **Powershell** only.
+4. Once installed run `aws configure sso` on your terminal / PowerShell
+5. Follow the prompts as shown here exactly (if you don't things will break)
 
 ```
 SSO session name (Recommended): aa-dr-developer
