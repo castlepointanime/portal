@@ -2,6 +2,34 @@
 
 A simple portal that allows vendors to sign up to apply, view application progress and status, as well as providing a central location for documents.
 
+### **Pre-requisites**
+
+AA-DR Portal requires AWS-CLI in order to get credentials needed to make AWS service related calls.
+
+1. [Install AWS-CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for your respective OS
+2. For Windows please run installation commands in **Powershell**. Run the project in **Powershell** only.
+3. Once installed run `aws configure sso` on your terminal / PowerShell
+4. Follow the prompts as shown here exactly (if you don't things will break)
+
+```
+SSO session name (Recommended): aa-dr-developer
+SSO start URL [None]: https://castlepointanime.awsapps.com/start
+SSO region [None]: us-east-1
+SSO registration scopes [sso:account:access]: (just hit enter here)
+You will be prompted on your web browser to allow access, just follow the steps
+There are X roles available to you.
+ > PowerUserAccess
+Use the role name "PowerUserAccess"
+CLI default client Region [us-east-2]: us-east-1
+CLI default output format [json]: json
+CLI profile name [PowerUserAccess-971141433805]: cpac-webmaster
+```
+
+5. Once finished, login with `aws sso login --profile cpac-webmaster`
+6. Follow the prompts and **make sure to sign in with your CPAC Google Account**
+7. **Important**: You will need to re-run step 4 and restart your local / docker instance if you get a credential expiration
+8. Follow the next steps below for local / container setup.
+
 ### **Local Setup**
 
 ---
